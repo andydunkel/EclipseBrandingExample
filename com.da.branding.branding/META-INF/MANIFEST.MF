@@ -1,0 +1,14 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Branding
+Bundle-SymbolicName: com.da.branding.branding
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.da.branding.branding.Activator
+Bundle-Vendor: DA
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.da.branding.branding.catastic;bundle-version="1.0.0",
+ com.da.branding.branding.fatcat;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
+Export-Package: com.da.branding.branding

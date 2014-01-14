@@ -1,0 +1,12 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: Branding Example
+Bundle-SymbolicName: com.da.branding.example;singleton:=true
+Bundle-Version: 1.0.0.qualifier
+Bundle-Activator: com.da.branding.example.Activator
+Bundle-Vendor: Andy Dunkel
+Require-Bundle: org.eclipse.ui,
+ org.eclipse.core.runtime,
+ com.da.branding.branding;bundle-version="1.0.0"
+Bundle-RequiredExecutionEnvironment: JavaSE-1.7
+Bundle-ActivationPolicy: lazy
